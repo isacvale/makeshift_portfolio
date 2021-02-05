@@ -60,7 +60,7 @@ const Contact = () => {
             { isScrolled || showToTop
                 ? <ContactBanner
                     label='back to top'
-                    to='#top-of-page'
+                    to='#html'
                     hidden={!(isScrolled && showToTop)}
                 />
                 : null
