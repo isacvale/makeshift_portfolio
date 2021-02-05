@@ -18,6 +18,7 @@ const Header = () => {
                         <a
                             className='Header_ProjectLink interactive'
                             href={`#${makeId(project.shortname)}`}
+                            key={project.shortname}
                         >
                             <Icon
                                 icon={project.icon}

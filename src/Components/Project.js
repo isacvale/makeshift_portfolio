@@ -1,5 +1,5 @@
 import React from 'react'
-import { projects } from 'Store'
+// import { projects } from 'Store'
 import './Project.css'
 
 const ProjectThumbnail = () => {
