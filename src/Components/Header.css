@@ -1,0 +1,80 @@
+.Header {
+    align-items: center;
+    background: hsla(0, 0%, 100%, 0.6);
+    display: flex;
+    padding: 3.2rem 0;
+    position: relative;
+    /* min-height: 30vh; */
+    border-bottom: 2px solid hsla(0, 0%, 0%, 0.22);
+}
+
+.HeaderContent {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    justify-content: space-between;
+    /* justify-content: center; */
+    margin: 15vh auto 5vh;
+    max-width: 900px;
+    padding: 0;
+    width: 80vw;
+}
+
+.HeaderSiteTitle {
+    position: relative;
+}
+
+.HeaderSiteTitle > h1 {
+    color: var(--color-dark);
+    font-family: var(--font-title);
+    font-weight: normal;
+    font-size: 6rem;
+    line-height: 55%;
+    margin: 0;
+    text-align: right;
+}
+
+.HeaderSiteTitle > h2 {
+    align-self: start;
+    justify-self: end;
+    font-family: var(--font-copy);
+    font-weight: 200;
+    font-size: 1.4rem;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    bottom: -2.8rem;
+}
+
+.Header nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: max-content;
+    margin-top: 4.2rem;
+}
+@media (min-width: 500px) {  
+    .Header nav {
+        grid-template-columns: 1fr 1fr;
+    }  
+}
+@media (min-width: 900px) {  
+    .Header nav {
+        grid-template-columns: 1fr 1fr 1fr;
+    }  
+}
+
+.Header_ProjectLink {
+    align-items: center;
+    border-radius: 0.6rem;
+    color: var(--color-three-l);
+    display: flex;
+    font-family: var(--font-copy);
+    font-weight: 700;
+    gap: 0.8rem;
+    text-align: left;
+    padding: 0.6rem 1rem;
+    text-decoration: none;
+}
+
