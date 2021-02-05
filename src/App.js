@@ -8,6 +8,7 @@ function App() {
   console.log('p', projects, projects.map)
   return (
     <div className="App">
+      <a id='top-of-page'></a>
       <Header />
       { projects.map(project =>
           <Project

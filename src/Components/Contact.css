@@ -1,0 +1,45 @@
+.Contact {
+    display: flex;
+    gap: 0.7rem;
+    position: fixed;
+    right: 0.7rem;
+    top: 0;
+    z-index: 1;
+    width: 90vw;
+    justify-content: flex-end;
+}
+
+.ContactBanner {
+    --b-radius: 0.5rem;
+    align-items: center;
+    background: hsla(0, 0%, 80%, 0.6);
+    border-radius: 0 0 var(--b-radius) var(--b-radius);
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    width: 2.7rem;
+    min-width: fit-content;
+    padding: 0 0.8rem;
+    transition: padding-top 0.2s ease-in-out, transform 0.4s ease-in-out;
+    /* transform: translateY(-1px); */
+
+    color: hsla(170, 40%, 0%, 0.4);
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ContactBanner:hover {
+    padding-top: 0.4rem;
+}
+
+.ContactBanner._hidden {
+    transform: translateY(-4rem);
+}
+
+/* .ContactBanner:first-of-type {
+    transform: translateY(-4rem);
+}
+._scrolled .ContactBanner:first-of-type {
+    transform: translateY(0);
+} */

@@ -1,6 +1,7 @@
 import React from 'react'
 // import { Link } from 'react-dom-router'
 import Icon from 'Components/Icon'
+import Contact from 'Components/Contact'
 import { makeId } from 'Utils'
 import { projects } from 'Store'
 import './Header.css'
@@ -8,6 +9,7 @@ import './Header.css'
 const Header = () => {
     return (
         <header className='Header'>
+            <Contact />
             <div className='HeaderContent'>
                 <div className='HeaderSiteTitle'>
                     <h1>My Provisional Portfolio</h1>
