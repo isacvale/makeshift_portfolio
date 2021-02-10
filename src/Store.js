@@ -3,7 +3,7 @@ const projects = [
         alias: 'governa',
         shortname: 'Governa System',
         name: 'The new Governa system',
-        description: "A system for the Presidency of Brazil, used throughout the government. It's use is restricted to oficials, and allows the communication and coordination of the three levels of the Executive Power.My contribution was the design of the new UI and implementation with React, MobX and Ant Design.",
+        description: "A system for the Presidency of Brazil, used throughout the government. Its use is restricted to officials, and allows the communication and coordination of the three levels of the Executive Power. I contributed to the design of the new UI and with its implementation with React, MobX and Ant Design.",
         icon: 'library',
         images: [1, 2, 3, 4, 5]
     },
@@ -12,10 +12,10 @@ const projects = [
         shortname: 'E-sial System',
         name: 'The new E-sial system',
         description: 
-        `Another system for the Presindency of Brazil, again with restricted access. It allows the management of the presidential schedule, and event to which dignataries may attend.
+        `Another system for the Presindency of Brazil, again with restricted access. It allows the management of the presidential schedule, and of events to which dignataries may attend.
         My contribution was the overall UI design and implementation with React, MobX and Semantic UI.`,
         icon: 'profile',
-        images: []
+        images: [1, 2, 3, 4]
     },
     {
         alias: 'weather',
@@ -27,7 +27,7 @@ const projects = [
             label: 'You can see it here.',
             link: 'https://weather-calendar.netlify.app/',
         },
-        images: []
+        images: [1, 2, 3, 4, 5, 6]
     },
     {
         alias: 'tictactoe',
@@ -53,7 +53,7 @@ const projects = [
         alias: 'raven',
         shortname: 'Raven Store',
         name: 'Raven: a data binding tool',
-        description: `This is a tool for creating stores. Named after the Odin's ravens, who could see everything, it uses a sub/pub pattern to allow vanilla HTML element to react to changes to data. This capability, also called "reactivity", is a fundamental element of modern front end architecture. And this easy tool allows you to have it in vanilla apps.`,
+        description: `This is a tool for creating stores. Named after Odin's ravens, who could see everything, it uses a sub/pub pattern to allow vanilla HTML elements to react to changes to data. Such capability, also called "reactivity", is a fundamental element of modern front end architecture, and this easy tool allows you to have it in vanilla apps.`,
         icon: 'stack',
         images: []
     },
@@ -61,7 +61,7 @@ const projects = [
         alias: 'vectorart',
         shortname: 'Vector Art',
         name: 'Some vector art',
-        description: "Some vector art I developed for Ocastudios, a game studio company. I've been using Linux and free software for years, and used Inkscape to create these images directly on SVG. ",
+        description: "Some vector art I developed for Ocastudios, a game studio. I've been using Linux and free software for years, and used Inkscape to create these images directly on SVG. ",
         icon: 'brush',
         images: []
     },
@@ -69,7 +69,7 @@ const projects = [
         alias: 'paper',
         shortname: 'Paper Games',
         name: 'Tabletop paper games',
-        description: "During my years in Ocastudios, we've collected traditional games from around to create DIY paper versions you could print and play at home. The games were design to be visually pleasant, save on ink, being foldable and not requiring glue. I've learned a lot about design doing these project, so they're worth a mention.",
+        description: "During my years in Ocastudios, we've collected traditional games from around the word to create DIY paper versions you could print and play at home. The games were designed to be visually pleasant, save on ink, be foldable and not require glue. I've learned a lot about design doing these projects, so they're worth a mention.",
         icon: 'dice',
         images: []
     },

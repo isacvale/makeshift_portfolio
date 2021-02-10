@@ -1,24 +1,7 @@
-import React, { useState } from 'react'
-// import { projects } from 'Store'
+import React from 'react'
 import Thumbnails from 'Components/Thumbnails'
 import { makeId } from 'Utils'
 import './Project.css'
-
-const ProjectThumbnail = props => {
-    const { alias, num, onClick } = props
-
-    return (
-        <button
-            className='ProjectThumbnail interactive-l'
-            onClick={() => onClick(num)}
-        >
-            <img
-                src={`${process.env.PUBLIC_URL}/images/${alias}_0${num}s-min.png`}
-                alt=''
-            />
-        </button>
-    )
-}
 
 const Project = props => {
     const {
@@ -46,17 +29,6 @@ const Project = props => {
                     alias={alias}
                     onClick={openLightbox}
                 />
-                {/* <footer>
-                    {
-                        data.images.map(num =>
-                        <ProjectThumbnail
-                            alias={alias}
-                            num={num}
-                            key={num}
-                            onClick={openLightbox}
-                        />
-                    )}
-                </footer> */}
             </div>
         </section>
     )
