@@ -100,23 +100,3 @@
     width: 75%;
 }
 
-.Project footer {
-    --thumbnail-size: 2.8rem;
-    display: flex;
-    gap: var(--thumbnail-size);
-    justify-content: center;
-}
-
-.ProjectThumbnail {
-    padding: 0;
-    border: none;
-    border-radius: 0.4rem;
-    overflow: hidden;
-    cursor: pointer;
-}
-.ProjectThumbnail > img{
-    /* background: var(--color-dark); */
-    display: block;
-    height: var(--thumbnail-size);
-    width: var(--thumbnail-size);
-}

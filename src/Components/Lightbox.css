@@ -1,0 +1,83 @@
+.Lightbox {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsla(0, 0%, 20%, 0.4);
+    backdrop-filter: blur(0);
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.65s;
+}
+
+.Lightbox._active {
+    backdrop-filter: blur(2px);
+    opacity: 1;
+}
+
+.Lightbox_Image {
+    box-shadow: 0 0.2rem 1rem 0 var(--color-shadow);
+    max-height: 80vh;
+    max-width: 80vw;
+}
+
+._enterLeft {
+    animation-name: enterLeft;
+    animation-duration: 0.6s;
+    text-align: center;
+}
+
+@keyframes enterLeft {
+    from {
+        transform: translateX(-3rem) scale(0.96);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0) scale(1);
+        opacity: 1;
+    }
+}
+
+._enterRight {
+    animation-name: enterRight;
+    animation-duration: 0.6s;
+    text-align: center;
+}
+
+@keyframes enterRight {
+    from {
+        transform: translateX(3rem) scale(0.96);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0) scale(1);
+        opacity: 1;
+    }
+}
+
+.Lightbox_Content {
+    display: grid;
+    grid-template-rows: 15vh auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.Lightbox_Content > :first-child {
+    align-self: flex-end;
+    margin-bottom: 1.4rem;
+}
+
+.Lightbox_Close {
+    color: white;
+    position: fixed;
+    top: 1rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 0.4rem 0.8rem;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+}

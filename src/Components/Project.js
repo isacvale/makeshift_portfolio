@@ -1,16 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import { projects } from 'Store'
+import Thumbnails from 'Components/Thumbnails'
 import { makeId } from 'Utils'
 import './Project.css'
 
 const ProjectThumbnail = props => {
-    const { alias, num } = props
+    const { alias, num, onClick } = props
 
-    console.log(`Assets/images/${alias}_0${num}-min.png`)
     return (
-        <button className='ProjectThumbnail interactive-l'>
+        <button
+            className='ProjectThumbnail interactive-l'
+            onClick={() => onClick(num)}
+        >
             <img
-                src={`${process.env.PUBLIC_URL}/images/${alias}_0${num}-min.png`}
+                src={`${process.env.PUBLIC_URL}/images/${alias}_0${num}s-min.png`}
                 alt=''
             />
         </button>
@@ -18,8 +21,19 @@ const ProjectThumbnail = props => {
 }
 
 const Project = props => {
-    const { data } = props
+    const {
+        data,
+        setImageNum,
+        setActiveProject,
+        toggleLightbox
+    } = props
     const { alias } = data
+
+    const openLightbox = num => {
+        setActiveProject(data.alias)
+        setImageNum(num)
+        toggleLightbox()
+    }
 
     return (
         <section className='Project'>
@@ -28,16 +42,21 @@ const Project = props => {
                 <p>
                     {data.description}
                 </p>
-                <footer>
+                <Thumbnails
+                    alias={alias}
+                    onClick={openLightbox}
+                />
+                {/* <footer>
                     {
                         data.images.map(num =>
                         <ProjectThumbnail
                             alias={alias}
                             num={num}
                             key={num}
+                            onClick={openLightbox}
                         />
                     )}
-                </footer>
+                </footer> */}
             </div>
         </section>
     )

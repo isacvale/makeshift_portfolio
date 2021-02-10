@@ -1,0 +1,27 @@
+.Thumbnails {
+    --thumbnail-size: 2.2rem;
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+@media (min-width: 500px) {
+    .Thumbnails {
+        --thumbnail-size: 2.8rem;
+        gap: var(--thumbnail-size);
+    }
+}
+
+.ProjectThumbnail {
+    padding: 0;
+    border: none;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.ProjectThumbnail > img {
+    display: block;
+    height: var(--thumbnail-size);
+    width: var(--thumbnail-size);
+}

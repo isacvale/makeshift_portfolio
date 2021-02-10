@@ -60,6 +60,8 @@ code {
 :root {
   --color-dark: hsl(187, 59%, 22%);
   --color-dark: hsl(189, 63%, 6%);
+  --color-shadow: hsla(187, 59%, 22%, 0.3);
+
   --color-light: hsl(180, 100%, 100%);
 
   --color-one: hsl(177, 43%, 91%);

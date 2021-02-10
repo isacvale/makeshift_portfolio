@@ -77,6 +77,7 @@ const projects = [
         alias: 'oldsite',
         shortname: 'Me olde Website',
         name: 'Me olde website',
+        icon: 'hour-glass',
         description: `This website was created as a capstone for a front end specialization at Coursera. It is outdated in content and technology, and has quite a lot of quirks: for example, it uses a loading screen, but only so I could show off a CSS animation for the capstone. I decided to recreate it, but never found the time, and that's why I know have a "provisional" portfolio. The old website used jQuery and Sass.`,
         images: []
     },

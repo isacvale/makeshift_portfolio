@@ -1,5 +1,3 @@
-// import React, { useState } from 'react'
-
 const makeId = str => str
     .replaceAll(' ', '&')
     .replaceAll('-', '&')
@@ -19,4 +17,25 @@ const debouncer = (callback, delay=200) => {
     }
 }
 
-export { debouncer, makeId }
+const setFocusablePage = (() => {
+    let focusable = true
+
+    return state => {
+        const lightBox = document.querySelector('.Lightbox')
+        focusable = state
+
+        if (lightBox) {
+            const focusableElements = [
+                ...document.querySelectorAll(':not(.Lightbox) a'),
+                ...document.querySelectorAll(':not(.Lightbox) button')
+            ].filter(el => !lightBox.contains(el))
+
+            focusableElements.forEach(el =>
+                el.setAttribute('tabIndex', state ? '0' : '-1')
+            )
+        }
+    }
+    
+})()
+
+export { debouncer, makeId, setFocusablePage }
