@@ -1,7 +1,10 @@
 .App {
   display: flex;
   flex-direction: column;
-  background:
+  background-image:
+    linear-gradient(
+      hsla(0, 0%, 100%, 0.3) 0%,
+      hsla(0, 0%, 100%, 0.5) 30%),
     url('./Assets/grey-wood-5.jpg');
   background-size: cover;
   background-position: top center;

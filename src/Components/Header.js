@@ -31,17 +31,6 @@ const Header = () => {
                             <span className='HeaderLabel'>{project.shortname}</span>
                         </a>
                     )}
-                    {/* <a>Governa system</a>
-                    <a>E-sial system</a>
-                    <a>Weather app</a>
-                    <a>Tic-tac-toe</a>
-                    <a>Stamp components</a>
-                    <a>Vector art</a>
-                    <a>DIY Tabletop Games</a>
-                    <a>Ye olde website</a>
-                    <a>My current project</a>
-                    <a>Who am I</a>
-                    <a>Stuff I like</a> */}
                 </nav>
             </div>
         </header>

@@ -5,8 +5,8 @@
     background:
         linear-gradient(90deg,
             white -25%,
-            var(--color) 15%,
-            var(--color) 85%,
+            var(--color) 8%,
+            var(--color) 92%,
             white 125%
         );
     mix-blend-mode: multiply;
@@ -35,6 +35,10 @@
 @media (min-width: 900px) {
     .Project {
         background:
+            linear-gradient(
+                hsla(0, 0%, 100%, 0.1),
+                hsla(0, 0%, 100%, 0.1)
+            ),
             linear-gradient(90deg,
                 white -20%,
                 var(--color) 30%,
@@ -80,7 +84,8 @@
     font-size: 6rem;
     line-height: 55%;
     margin: 0 0 0.5rem;
-    text-shadow: 0 0 3rem hsla(0, 0%, 0%, 0.5);
+    scroll-margin: 4rem;
+    text-shadow: 0 0 0.5rem hsla(0, 0%, 0%, 0.2);
 }
 
 .Project p {
@@ -90,20 +95,28 @@
     font-weight: light;
     font-weight: 600;
     margin: 0 auto 1.6rem;
-    max-width: 260px;
+    max-width: 280px;
     text-align: left;
     width: 75%;
 }
 
 .Project footer {
+    --thumbnail-size: 2.8rem;
     display: flex;
-    gap: 2rem;
+    gap: var(--thumbnail-size);
     justify-content: center;
 }
 
 .ProjectThumbnail {
-    --thumbnail-size: 2rem;
-    background: var(--color-dark);
+    padding: 0;
+    border: none;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.ProjectThumbnail > img{
+    /* background: var(--color-dark); */
+    display: block;
     height: var(--thumbnail-size);
     width: var(--thumbnail-size);
 }

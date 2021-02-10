@@ -83,18 +83,25 @@ code {
   --color-bg-last: hsl(187, 19%, 38%);
 }
 
-.interactive {
+.interactive,
+.interactive-l {
   background-color: hsla(0, 0%, 0%, 0);
   box-shadow: 0 0 0 0 hsla(0, 0%, 0%, 0%);
   transition: box-shadow 0.6s, background-color 0.4s;
 }
-.interactive:hover {
+.interactive:hover,
+.interactive-l:hover {
   background-color: hsla(0, 0%, 0%, 0.06);
 }
-.interactive:focus {
+.interactive:focus,
+.interactive-l:focus {
   box-shadow: 0 0 0.1rem 0.2rem hsla(0, 0%, 0%, 0.2);
   outline: none;
 }
-.interactive:active {
+.interactive:active,
+.interactive-l:active {
   background-color: hsla(0, 0%, 0%, 0.2);
+}
+.interactive-l:focus {
+  box-shadow: 0 0 0.1rem 0.2rem hsla(0, 0%, 0%, 0.45);
 }

@@ -1,35 +1,42 @@
 import React from 'react'
 // import { projects } from 'Store'
+import { makeId } from 'Utils'
 import './Project.css'
 
-const ProjectThumbnail = () => {
+const ProjectThumbnail = props => {
+    const { alias, num } = props
+
+    console.log(`Assets/images/${alias}_0${num}-min.png`)
     return (
-        <div className='ProjectThumbnail' />
+        <button className='ProjectThumbnail interactive-l'>
+            <img
+                src={`${process.env.PUBLIC_URL}/images/${alias}_0${num}-min.png`}
+                alt=''
+            />
+        </button>
     )
 }
 
 const Project = props => {
     const { data } = props
+    const { alias } = data
 
     return (
         <section className='Project'>
             <div className='ProjectContent'>
-                <h1>{data.name}</h1>
+                <h1 id={makeId(data.shortname)}>{data.name}</h1>
                 <p>
                     {data.description}
                 </p>
                 <footer>
-                    { data.images.map(image =>
+                    {
+                        data.images.map(num =>
                         <ProjectThumbnail
-                            key={image}
+                            alias={alias}
+                            num={num}
+                            key={num}
                         />
                     )}
-                    {/* <ProjectThumbnail />
-                    <ProjectThumbnail />
-                    <ProjectThumbnail />
-                    <ProjectThumbnail />
-                    <ProjectThumbnail />
-                    <ProjectThumbnail /> */}
                 </footer>
             </div>
         </section>

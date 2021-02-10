@@ -21,6 +21,7 @@
     min-width: fit-content;
     padding: 0 0.8rem;
     transition: padding-top 0.2s ease-in-out, transform 0.4s ease-in-out;
+    backdrop-filter: blur(2px);
     /* transform: translateY(-1px); */
 
     color: hsla(170, 40%, 0%, 0.4);
