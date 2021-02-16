@@ -4,6 +4,7 @@ import { setFocusablePage } from 'Utils'
 import { useSwipeable } from 'react-swipeable'
 import Thumbnails from 'Components/Thumbnails'
 import './Lightbox.css'
+import { act } from '@testing-library/react'
 
 const LightBoxImage = props => {
     const {
@@ -74,6 +75,10 @@ const Lightbox = props => {
         toggleLightbox,
         setImageNum
     } = props
+    const projectData = projects.find(x => x.alias === activeProject)
+    const alt = activeProject
+        ? projectData.alt
+        : ''
 
     const [isActive, setIsActive] = useState(false)
 
@@ -89,7 +94,7 @@ const Lightbox = props => {
         else
             setFocusablePage(true)
     }, [activeState])
-    
+
     return activeState
         ? <section
             className={`Lightbox ${activeState === 2 ? '_active' : ''}`}
@@ -105,7 +110,7 @@ const Lightbox = props => {
                 <LightBoxImage
                     activeProject={activeProject}
                     imageNum={imageNum}
-                    alt=''
+                    alt={alt}
                     onClick={e => e.stopPropagation()}
                     setImageNum={setImageNum}
                 />

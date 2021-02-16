@@ -16,8 +16,9 @@ const ProjectThumbnail = props => {
             <img
                 src={imgSource}
                 alt=''
-                height="48"
-                width="48"
+                height='48'
+                width='48'
+                aria-label={`Opens image ${num}.`}
             />
         </button>
     )

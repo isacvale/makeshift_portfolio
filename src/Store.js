@@ -5,7 +5,8 @@ const projects = [
         name: 'The new Governa system',
         description: "A system for the Presidency of Brazil, used throughout the government. Its use is restricted to officials, and allows the communication and coordination of the three levels of the Executive Power. I contributed to the design of the new UI and with its implementation with React, MobX and Ant Design.",
         icon: 'library',
-        images: [1, 2, 3, 4, 5]
+        images: [1, 2, 3, 4, 5],
+        alt: 'A system based on Ant Design.'
     },
     {
         alias: 'esial',
@@ -15,7 +16,8 @@ const projects = [
         `Another system for the Presindency of Brazil, again with restricted access. It allows the management of the presidential schedule, and of events to which dignataries may attend.
         My contribution was the overall UI design and implementation with React, MobX and Semantic UI.`,
         icon: 'profile',
-        images: [1, 2, 3, 4]
+        images: [1, 2, 3, 4],
+        alt: 'A system based on SemanticUI.'
     },
     {
         alias: 'weather',
@@ -27,7 +29,8 @@ const projects = [
             label: 'You can see it here.',
             link: 'https://weather-calendar.netlify.app/',
         }],
-        images: [1, 2, 3, 4, 5, 6]
+        images: [1, 2, 3, 4, 5, 6],
+        alt: 'A calendar app that shows weather forecast for appointments.'
     },
     {
         alias: 'tictactoe',
@@ -39,7 +42,8 @@ const projects = [
             label: 'Take a look.',
             link: 'https://codepen.io/isacvale/full/dmwOKg',
         }],
-        images: [1, 2, 3, 4]
+        images: [1, 2, 3, 4],
+        alt: 'A simple yet stylish game of tica-tac-toe.'
     },
     {
         alias: 'stamp',
@@ -57,7 +61,8 @@ const projects = [
                 label: 'Or you can check out the example page.',
                 link: 'https://github.com/isacvale/stamp_example'
             }
-        ]
+        ],
+        alt: 'A simple javascript tool for componentization.'
     },
     {
         alias: 'raven',
@@ -65,7 +70,8 @@ const projects = [
         name: 'Raven: a data binding tool',
         description: `This is a tool for creating stores. Named after Odin's ravens, who could see everything, it uses a sub/pub pattern to allow vanilla HTML elements to react to changes to data. Such capability, also called "reactivity", is a fundamental element of modern front end architecture, and this easy tool allows you to have it in vanilla apps.`,
         icon: 'stack',
-        images: [1, 2, 3, 4]
+        images: [1, 2, 3, 4],
+        alt: 'A simple javascript tool for data binding.'
     },
     {
         alias: 'vector',
@@ -74,7 +80,8 @@ const projects = [
         description: "Some vector art I developed for Ocastudios, a game studio. I've been using Linux and free software for years, and used Inkscape to create these images directly on SVG. ",
         icon: 'brush',
         svgImages: true,
-        images: [1, 2, 3, 4]
+        images: [2, 3, 4],
+        alt: 'Game artwork in svg.'
     },
     {
         alias: 'tabletop',
@@ -82,7 +89,8 @@ const projects = [
         name: 'Tabletop paper games',
         description: "During my years in Ocastudios, we've collected traditional games from around the word to create DIY paper versions you could print and play at home. The games were designed to be visually pleasant, save on ink, be foldable and not require glue. I've learned a lot about design doing these projects, so they're worth a mention.",
         icon: 'dice',
-        images: [1, 2, 3, 4, 5, 6]
+        images: [1, 2, 3, 4, 5, 6],
+        alt: 'DIY tabletop paper games.'
     },
     {
         alias: 'old',
@@ -90,7 +98,8 @@ const projects = [
         name: 'Me olde website',
         icon: 'hour-glass',
         description: `This website was created as a capstone for a front end specialization at Coursera. It is outdated in content and technology, and has quite a lot of quirks: for example, it uses a loading screen, but only so I could show off a CSS animation for the capstone. I decided to recreate it, but never found the time, and that's why I know have a "provisional" portfolio. The old website used jQuery and Sass.`,
-        images: [1, 2, 3, 4]
+        images: [1, 2, 3, 4],
+        alt: 'And old personal website.'
     },
     {
         alias: 'faith',
@@ -98,7 +107,8 @@ const projects = [
         name: 'My current project',
         description: `I'm currently creating a website for Crafts by Faith, a Houston-based online store for handmade products. It's still early in the development but you can already see the overall picture. It's been developed in React and MobX.`,
         icon: 'play3',
-        images: []
+        images: [],
+        alt: 'A cute webiste with a crochet theme.'
     },
     {
         alias: 'me',
