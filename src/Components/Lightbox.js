@@ -4,7 +4,6 @@ import { setFocusablePage } from 'Utils'
 import { useSwipeable } from 'react-swipeable'
 import Thumbnails from 'Components/Thumbnails'
 import './Lightbox.css'
-import { act } from '@testing-library/react'
 
 const LightBoxImage = props => {
     const {
