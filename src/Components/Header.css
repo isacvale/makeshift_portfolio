@@ -2,19 +2,21 @@
     align-items: center;
     background: hsla(0, 0%, 100%, 0.6);
     display: flex;
-    padding: 3.2rem 0;
+    padding: 0;
     position: relative;
-    /* min-height: 30vh; */
     border-bottom: 2px solid hsla(0, 0%, 0%, 0.22);
+}
+@media (min-width: 500px) {
+    .Header {
+        padding: 3.2rem 0;
+    }
 }
 
 .HeaderContent {
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* gap: 2rem; */
     justify-content: space-between;
-    /* justify-content: center; */
     margin: 15vh auto 5vh;
     max-width: 900px;
     padding: 0;
@@ -23,6 +25,12 @@
 
 .HeaderSiteTitle {
     position: relative;
+    margin-right: -1rem;
+}
+@media (min-width: 500px) {
+    .HeaderSiteTitle {
+        margin-right: unset;
+    }
 }
 
 .HeaderSiteTitle > h1 {

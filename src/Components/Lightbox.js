@@ -99,8 +99,9 @@ const Lightbox = props => {
             className={`Lightbox ${activeState === 2 ? '_active' : ''}`}
             onClick={toggleLightbox}
         >
-            <button className='Lightbox_Close interactive'>close</button>
             <div className='Lightbox_Content'>
+                <button className='Lightbox_Close interactive-l'>close</button>
+
                 <Thumbnails
                     alias={activeProject}
                     onClick={setImageNum}

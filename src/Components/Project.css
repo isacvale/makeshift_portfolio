@@ -31,6 +31,9 @@
     --color: var(--color-bg-last);
     box-shadow: 0 2rem 1.6rem 0 rgba(0, 0, 0, 0.13);
 }
+.Project:last-of-type h1 + p {
+    color: white;
+}
 
 @media (min-width: 900px) {
     .Project {
@@ -69,12 +72,14 @@
 }
 
 .ProjectContent {
-    /* box-sizing: border-box; */
     margin: 0 auto;
-    /* max-width: 900px; */
-    padding: 4rem 2vw;
+    padding: 4rem 2vw 1rem;
     text-align: center;
-    /* width: 80vw; */
+}
+@media (min-width: 500px) {
+    .ProjectContent {
+        padding: 4rem 2vw;
+    }
 }
 
 .Project h1 {
@@ -82,7 +87,7 @@
     font-family: var(--font-title);
     font-weight: normal;
     font-size: 6rem;
-    line-height: 55%;
+    line-height: 3rem;
     margin: 0 0 0.5rem;
     scroll-margin: 4rem;
     text-shadow: 0 0 0.5rem hsla(0, 0%, 0%, 0.2);

@@ -25,7 +25,6 @@ const Header = () => {
                             <Icon
                                 icon={project.icon}
                                 size='1.2rem'
-                                // color={'hsla(140, 50%, 50%, 0.4)'}
                                 color={'hsla(240, 20%, 50%, 0.6)'}
                             />
                             <span className='HeaderLabel'>{project.shortname}</span>

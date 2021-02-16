@@ -15,7 +15,9 @@ const Item = props => {
         >
             <a
                 className='interactive'
-                href={link}           
+                href={link}
+                target='_blank'
+                rel="noopener noreferrer"         
             >
                 <span className='ItemList_Name'>{name}</span>
                 <span className='ItemList_Category'>{category}</span>

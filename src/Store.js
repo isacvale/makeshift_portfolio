@@ -3,7 +3,7 @@ const projects = [
         alias: 'governa',
         shortname: 'Governa System',
         name: 'The new Governa system',
-        description: "A system for the Presidency of Brazil, used throughout the government. Its use is restricted to officials, and allows the communication and coordination of the three levels of the Executive Power. I contributed to the design of the new UI and with its implementation with React, MobX and Ant Design.",
+        description: "A system for the Presidency of Brazil, used throughout the government. Its use is restricted to officials, and allows the communication and coordination of the three levels of the Executive Branch. I contributed to the design of the new UI and with its implementation with React, MobX and Ant Design.",
         icon: 'library',
         images: [1, 2, 3, 4, 5],
         alt: 'A system based on Ant Design.'
@@ -141,8 +141,8 @@ const projects = [
     {
         alias: 'me',
         shortname: 'About Me',
-        name: 'About me, eh?',
-        description: "I'm Isac, front end developer and web designer based on Vancouver. I graduated in Architecture and worked as a game designer, but my search to combine the stuff I love—design and coding—led me to web design. I mostly work with React and vanilla, but I'm also very interested in Svelte and JAM stack. I'm interested in functional programming, test-driven development and user-centric design, but mostly what I want is to create useful and accessible sites that spark joy.",
+        name: 'About me',
+        description: "I'm Isac, front end developer and web designer based on Vancouver. I graduated in Architecture and worked as a game designer, but my search to combine the stuff I love—design and coding—led me to web design. I mostly work with React and vanilla, but excited with the rospect of exploring new tools. I'm interested in functional programming, test-driven development and user-centric design, but mostly what I want is to create useful and accessible sites that spark joy.",
         icon: 'neutral',
         images: []
     },
@@ -157,19 +157,19 @@ const projects = [
             {
                 name: 'MobX',
                 category: 'library',
-                label: 'A very simple and flexible state management, which I favour with React. Mobx allows great flexibility to design your data flow, and fits like a glove both small and huge projects.',
+                label: 'A very simple and flexible state management library, which I favour with React. Mobx allows great flexibility to design your data flow, and fits both small and huge projects like a glove.',
                 link: 'https://mobx.js.org/'
             },
             {
                 name: 'Parcel',
                 category: 'library',
-                label: 'No configuration is a huge plus, especially in a bundler. I certainly flavour it in vanilla apps, as it keeps the code sane.',
+                label: 'No configuration is a huge plus, especially in a bundler. I certainly favour it in vanilla apps, as it keeps the code sane.',
                 link: 'https://parceljs.org/'
             },
             {
                 name: 'Standard JS',
                 category: 'library',
-                label: 'No configuration is a double blessing for a linter. It means putting universality of code before your preference over semicolons.',
+                label: 'No-configuration is a double blessing: no clutter configurations; and truly standardized practices. It means putting standard before your preference over semicolons. No more bickering over preferences means more time to code.',
                 link: 'https://standardjs.com/'
             },
             {
@@ -181,33 +181,51 @@ const projects = [
             {
                 name: 'CSS Secrets',
                 category: 'book',
-                label: 'It is true that this great book by Lea Verou is a bit dated, as new features have emerged to solve some of the problems. It is still a valuable resource to learn the fundamentals, to learn about the context in which CSS exists, and especially, to inspire us. Hats off, Lea.',
+                label: 'It is true that this great book by Lea Verou is a bit dated, as new features have emerged to solve some of the problems. It is still a valuable resource to (really) learn the fundamentals, and to learn about the context in which CSS exists. But especially, it is source of inspiration. Hats off, Lea!',
                 link: 'https://www.goodreads.com/book/show/20830437-css-secrets'
             },
             {
                 name: 'Svelte',
                 category: 'framework',
-                label: 'I\'m not a big fan of frameworks, but as frameworks go, Svelte is exceptional. It feels very much like web components used to feel when HTML Import was alive - i.e. when it was good. I\'m not saying it\'s flawless, but it is a promising tool.',
+                label: 'I\'m not a major fan of frameworks, but as frameworks go, Svelte is exceptional. It feels very much like web components used to feel when HTML Import was alive - i.e. when it was good. I\'m not saying it\'s flawless, but it is a promising tool.',
                 link: 'https://svelte.dev/'
             },
             {
                 name: 'Netlify',
                 category: 'service',
-                label: 'If you don\'t remember life before such services, I envy your amnesia. The first time I used Netlify, I could not believe my eyes! It did in few clicks and seconds what took me a couple of hours. I have no love for managing servers, so Netlify is indispensable. (They could spare a little more love for vanilla apps though, there\'s more to life than JAM Stack).',
+                label: 'If you don\'t remember life before such services, I envy your amnesia. The first time I used Netlify, I could not believe my eyes! It did in few clicks and seconds what used to take me a couple of hours. I have no love for managing servers, so Netlify is indispensable, and the use of functions goes a long way to a truly serverless architecture.',
                 link: 'https://www.netlify.com/'
             },
             {
                 name: 'Fun Fun Function',
                 category: 'media',
-                label: 'MPJ has stopped postings videos, but those he made are a treasure. Funny, insightful and inspiring, his videos are even credited by (the) getify in his books, which is quite a feat. I miss my good monday mornings dearly.',
+                label: 'MPJ has stopped posting videos, but the ones he made are a treasure. Funny, insightful and inspiring, his videos are even credited by (the) getify in his books, which is quite a feat. I miss my good monday mornings dearly.',
                 link: 'https://www.youtube.com/c/funfunfunction'
             },
             {
                 name: 'React JS',
                 category: 'framework',
-                label: 'As many, I was at first dismayed by JSX, but once you get past that, React proves itself to be impressive. In particular, having a component be a function is practcial and beautiful, and Create React App allows for very quick prototype development.',
+                label: 'As many, I was at first dismayed by JSX, but once you get past that, React proves itself to be impressive. In particular, having a component be a function is practical and beautiful, and Create React App allows for very quick prototype development.',
                 link: 'https://reactjs.org/'
             },
+            {
+                name: 'Git',
+                category: 'tool',
+                label: 'Git was revolutionary, at least to me, as it provided a tool for version control that wasn\'t painful to use, and required close to no effort to learn. It is ideal for web development and collaboration, but most any long term project can benefit greatly from it.',
+                link: 'https://git-scm.com/'
+            },
+            {
+                name: 'Heroku',
+                category: 'service',
+                label: 'As a font end developer, I would rather team up with back end developers, but sometimes I\'m required to code some NodeJS APIs. On those situations, Heroku proved to be an easy and affordable solution that is delightful to work with.',
+                link: 'https://heroku.com'
+            },
+            {
+                name: 'PWA',
+                category: 'technology',
+                label: 'There are far too many tools to derive your site from your app, but Progressive Web Applications (PWA, for short) pushed back, and allows you to derive your app from your website. That is game-changing! It means better websites, better apps, less code, better user experience, and, to top all that, less walled gardens.',
+                link: 'https://web.dev/progressive-web-apps/'
+            }
         ]
     },
 ]

@@ -20,8 +20,14 @@
 
 .Lightbox_Image {
     box-shadow: 0 0.2rem 1rem 0 var(--color-shadow);
-    max-height: 80vh;
-    max-width: 80vw;
+    max-height: 92vh;
+    max-width: 92vw;
+}
+@media (min-width: 500px) {
+    .Lightbox_Image {
+        max-height: 80vh;
+        max-width: 80vw;
+    }
 }
 
 ._enterLeft {
@@ -60,26 +66,39 @@
 
 .Lightbox_Content {
     display: grid;
-    grid-template-rows: 15vh auto;
+    gap: min(2rem, 2vh);
+    grid-template-rows: repeat(2, min-content) auto;
     align-items: center;
     justify-content: center;
+    align-self: end;
+    margin-top: 2vh;
 }
 
-.Lightbox_Content > :first-child {
+/* .Lightbox_Content > :first-child { */
+/* .Lightbox_Close{
     align-self: flex-end;
     margin-bottom: 1.4rem;
-}
+} */
 
 .Lightbox_Close {
     color: white;
-    position: fixed;
-    top: 1rem;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    /* position: fixed; */
+    /* top: 0.5rem; */
+    /* margin-left: 50%; */
+    /* transform: translateX(-50%); */
+    /* padding: 0.4rem 0.8rem; */
     border: none;
     font-size: 1.1rem;
     border-radius: 1rem;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+}
+@media (min-width: 500px) {
+    .Lightbox_Close {
+        top: 1rem;
+    }
 }
 
 .Lightbox_Anim {
