@@ -26,7 +26,7 @@ const projects = [
         description: "This app was a challenge from a recruiting company. It was designed and built in five days using React and MobX, and relies on Open Weather APIs for weather forecast.",
         icon: 'sun',
         website: [{
-            label: 'You can see it here.',
+            label: 'Check out the Weather Calendar.',
             link: 'https://weather-calendar.netlify.app/',
         }],
         images: [1, 2, 3, 4, 5, 6],
@@ -39,7 +39,7 @@ const projects = [
         description: `This game implementation was created as a project for freeCodeCamp towards a front end certification. It uses good ol' jQuery and I consider it a sort of an "early work" I grew fond of.`,
         icon: 'cross',
         website: [{
-            label: 'Take a look.',
+            label: 'Check out tic-tac-toe.',
             link: 'https://codepen.io/isacvale/full/dmwOKg',
         }],
         images: [1, 2, 3, 4],
@@ -54,12 +54,12 @@ const projects = [
         images: [1, 2, 3, 4, 5],
         website: [
             {
-                label: 'You can check out the Github repository.',
+                label: 'Check out Stamp\'s Github.',
                 link: 'https://github.com/isacvale/dvo-stamp'
             },
             {
-                label: 'Or you can check out the example page.',
-                link: 'https://github.com/isacvale/stamp_example'
+                label: 'Check out Stamp\'s example page.',
+                link: 'https://stampexample.netlify.app/'
             }
         ],
         alt: 'A simple javascript tool for componentization.'
@@ -71,7 +71,17 @@ const projects = [
         description: `This is a tool for creating stores. Named after Odin's ravens, who could see everything, it uses a sub/pub pattern to allow vanilla HTML elements to react to changes to data. Such capability, also called "reactivity", is a fundamental element of modern front end architecture, and this easy tool allows you to have it in vanilla apps.`,
         icon: 'stack',
         images: [1, 2, 3, 4],
-        alt: 'A simple javascript tool for data binding.'
+        alt: 'A simple javascript tool for data binding.',
+        website: [
+            {
+                label: 'Check out Raven\'s Github.',
+                link: 'https://github.com/isacvale/dvo-raven'
+            },
+            {
+                label: 'Check out Raven\'s example page.',
+                link: 'https://ravenexample.netlify.app/'
+            }
+        ]
     },
     {
         alias: 'vector',
@@ -90,7 +100,13 @@ const projects = [
         description: "During my years in Ocastudios, we've collected traditional games from around the word to create DIY paper versions you could print and play at home. The games were designed to be visually pleasant, save on ink, be foldable and not require glue. I've learned a lot about design doing these projects, so they're worth a mention.",
         icon: 'dice',
         images: [1, 2, 3, 4, 5, 6],
-        alt: 'DIY tabletop paper games.'
+        alt: 'DIY tabletop paper games.',
+        website: [
+            {
+                label: 'Check out some DIY tabletop games',
+                link: 'https://ocastudios.com/classics/'
+            },
+        ]
     },
     {
         alias: 'old',
@@ -99,16 +115,28 @@ const projects = [
         icon: 'hour-glass',
         description: `This website was created as a capstone for a front end specialization at Coursera. It is outdated in content and technology, and has quite a lot of quirks: for example, it uses a loading screen, but only so I could show off a CSS animation for the capstone. I decided to recreate it, but never found the time, and that's why I know have a "provisional" portfolio. The old website used jQuery and Sass.`,
         images: [1, 2, 3, 4],
-        alt: 'And old personal website.'
+        alt: 'And old personal website.',
+        website: [
+            {
+                label: 'Check out my old web site.',
+                link: 'https://isacvale.com'
+            },
+        ]
     },
     {
-        alias: 'faith',
+        alias: 'crafts',
         shortname: 'My Current Project',
         name: 'My current project',
         description: `I'm currently creating a website for Crafts by Faith, a Houston-based online store for handmade products. It's still early in the development but you can already see the overall picture. It's been developed in React and MobX.`,
         icon: 'play3',
-        images: [],
-        alt: 'A cute webiste with a crochet theme.'
+        images: [1, 2, 3],
+        alt: 'A cute webiste with a crochet theme.',
+        website: [
+            {
+                label: 'Check out Crafts by Faith.',
+                link: 'https://craftsbyfaith.netlify.app/'
+            },
+        ]
     },
     {
         alias: 'me',
@@ -124,7 +152,63 @@ const projects = [
         name: 'Just some stuff I like',
         description: `This section holds links to some tools and other goodies that catch my eye. It is a reference for my future self, but it can teach something about me, after all, as the saying goes: "tell me with whom you walk, and I'll they you who you are".`,
         icon: 'smile',
-        images: []
+        images: [],
+        items: [
+            {
+                name: 'MobX',
+                category: 'library',
+                label: 'A very simple and flexible state management, which I favour with React. Mobx allows great flexibility to design your data flow, and fits like a glove both small and huge projects.',
+                link: 'https://mobx.js.org/'
+            },
+            {
+                name: 'Parcel',
+                category: 'library',
+                label: 'No configuration is a huge plus, especially in a bundler. I certainly flavour it in vanilla apps, as it keeps the code sane.',
+                link: 'https://parceljs.org/'
+            },
+            {
+                name: 'Standard JS',
+                category: 'library',
+                label: 'No configuration is a double blessing for a linter. It means putting universality of code before your preference over semicolons.',
+                link: 'https://standardjs.com/'
+            },
+            {
+                name: 'You don\'t know JS',
+                category: 'book',
+                label: 'This collection of books by getify (actually, the earier version) is how I really learned JS. It is an amazing journey through the language, and a great vaccine against nonsense. I cannot recommend it enough.',
+                link: 'https://github.com/getify/You-Dont-Know-JS'
+            },
+            {
+                name: 'CSS Secrets',
+                category: 'book',
+                label: 'It is true that this great book by Lea Verou is a bit dated, as new features have emerged to solve some of the problems. It is still a valuable resource to learn the fundamentals, to learn about the context in which CSS exists, and especially, to inspire us. Hats off, Lea.',
+                link: 'https://www.goodreads.com/book/show/20830437-css-secrets'
+            },
+            {
+                name: 'Svelte',
+                category: 'framework',
+                label: 'I\'m not a big fan of frameworks, but as frameworks go, Svelte is exceptional. It feels very much like web components used to feel when HTML Import was alive - i.e. when it was good. I\'m not saying it\'s flawless, but it is a promising tool.',
+                link: 'https://svelte.dev/'
+            },
+            {
+                name: 'Netlify',
+                category: 'service',
+                label: 'If you don\'t remember life before such services, I envy your amnesia. The first time I used Netlify, I could not believe my eyes! It did in few clicks and seconds what took me a couple of hours. I have no love for managing servers, so Netlify is indispensable. (They could spare a little more love for vanilla apps though, there\'s more to life than JAM Stack).',
+                link: 'https://www.netlify.com/'
+            },
+            {
+                name: 'Fun Fun Function',
+                category: 'media',
+                label: 'MPJ has stopped postings videos, but those he made are a treasure. Funny, insightful and inspiring, his videos are even credited by (the) getify in his books, which is quite a feat. I miss my good monday mornings dearly.',
+                link: 'https://www.youtube.com/c/funfunfunction'
+            },
+            {
+                name: 'React JS',
+                category: 'framework',
+                label: 'As many, I was at first dismayed by JSX, but once you get past that, React proves itself to be impressive. In particular, having a component be a function is practcial and beautiful, and Create React App allows for very quick prototype development.',
+                link: 'https://reactjs.org/'
+            },
+        ]
     },
 ]
 

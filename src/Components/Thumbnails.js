@@ -12,13 +12,13 @@ const ProjectThumbnail = props => {
         <button
             className={`ProjectThumbnail interactive-l ${svgImages ? '_svg' : ''}`}
             onClick={() => onClick(num)}
+            aria-label={`Opens image ${num}.`}
         >
             <img
                 src={imgSource}
                 alt=''
                 height='48'
                 width='48'
-                aria-label={`Opens image ${num}.`}
             />
         </button>
     )

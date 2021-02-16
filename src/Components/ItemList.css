@@ -1,0 +1,53 @@
+.ItemList {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.6rem;
+    gap: 1.2rem;
+    margin-top: 0.4rem;
+}
+
+.ItemList_Item {
+    background: hsl(0, 0%, 93%);
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.9rem 1.8rem;
+    flex: 1 0 200px;
+    text-align: left;
+    box-shadow: 0 0 0.6rem 0.3rem hsla(0, 0%, 93%, 0.2);
+}
+
+.ItemList_Item > a {
+    border-radius: 0.3rem;
+    margin: 0 -0.5rem;
+    padding: 0 0.5rem;
+    margin: -0.2rem -1.2rem 0.1rem;
+    padding: 0.6rem 1.2rem 0;
+    display: block;
+    font-family: var(--font-copy);
+    text-decoration: none;
+    color: var(--color-three-l);
+    font-weight: 700;
+}
+
+.ItemList_Name {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: -0.2rem;
+}
+.ItemList_Category {
+    color: var(--color-two-l);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    /* margin: -0.2rem 0; */
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+.ItemList_Item .ItemList_Description {
+    border-top: 1px solid var(--color-three);
+    padding: 1rem 0;
+    margin: 0;
+    font-weight: 400;
+    max-width: unset;
+    width: 100%;
+}

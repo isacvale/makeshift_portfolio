@@ -11,6 +11,7 @@ const ContactBanner = props => {
             aria-label={props.alt}
             href={props.to}
             target={isOutside ? '_blank' : null}
+            rel="noopener"
         >
 
             { props.icon

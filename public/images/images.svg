@@ -840,6 +840,116 @@
          id="rect2411-5"
          style="opacity:0.79199997;fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.09039371;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1205">
+      <rect
+         y="2926.1079"
+         x="-7934.665"
+         height="240.73499"
+         width="316.69516"
+         id="rect1207"
+         style="opacity:0.51300001;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.07948208;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1209">
+      <rect
+         y="2925.9744"
+         x="-7360.3027"
+         height="240.73499"
+         width="316.69516"
+         id="rect1211"
+         style="opacity:0.51300001;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.07948208;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1213">
+      <rect
+         style="opacity:0.51300001;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.85543704;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1215"
+         width="198.87794"
+         height="240.73499"
+         x="-6785.6387"
+         y="2929.1873" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1205-3">
+      <rect
+         y="2926.1079"
+         x="-7934.665"
+         height="240.73499"
+         width="316.69516"
+         id="rect1207-6"
+         style="opacity:0.51300001;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.07948208;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1209-3">
+      <rect
+         y="2925.9744"
+         x="-7360.3027"
+         height="240.73499"
+         width="316.69516"
+         id="rect1211-5"
+         style="opacity:0.51300001;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.07948208;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1213-2">
+      <rect
+         style="opacity:0.51300001;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.85543704;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1215-9"
+         width="198.87794"
+         height="240.73499"
+         x="-6785.6387"
+         y="2929.1873" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1289">
+      <rect
+         style="opacity:0.51300001;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.22338429;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1291"
+         width="22.026245"
+         height="22.026245"
+         x="-6770.1436"
+         y="2930.2224" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1293">
+      <rect
+         y="2992.2356"
+         x="-7352.4053"
+         height="101.05626"
+         width="101.05626"
+         id="rect1295"
+         style="opacity:0.51300001;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.02488554;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1297">
+      <rect
+         y="2968.3279"
+         x="-7778.2554"
+         height="95.093987"
+         width="95.093987"
+         id="rect1299"
+         style="opacity:0.51300001;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.96441782;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1213-27">
+      <rect
+         style="opacity:0.51300001;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.85543704;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1215-0"
+         width="198.87794"
+         height="240.73499"
+         x="-6785.6387"
+         y="2929.1873" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -848,9 +958,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.061871845"
-     inkscape:cx="-27521.379"
-     inkscape:cy="-3831.9793"
+     inkscape:zoom="0.24748738"
+     inkscape:cx="-28416.13"
+     inkscape:cy="-11086.415"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -876,6 +986,32 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <image
+       sodipodi:absref="/home/isac/Pictures/Screenshot from 2021-02-15 23-08-14.png"
+       y="2884.625"
+       x="-6800.5474"
+       id="image1173-1"
+       xlink:href="file:///home/isac/Pictures/Screenshot%20from%202021-02-15%2023-08-14.png"
+       preserveAspectRatio="none"
+       height="285.75"
+       width="508"
+       clip-path="url(#clipPath1289)"
+       transform="matrix(0.5765849,0,0,0.5765849,-3245.4791,1550.5515)"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <image
+       sodipodi:absref="/home/isac/Pictures/Screenshot from 2021-02-15 23-07-43.png"
+       y="2881.6011"
+       x="-7375.0713"
+       id="image1184-6"
+       xlink:href="file:///home/isac/Pictures/Screenshot%20from%202021-02-15%2023-07-43.png"
+       preserveAspectRatio="none"
+       height="285.75"
+       width="508"
+       clip-path="url(#clipPath1293)"
+       transform="matrix(0.12567257,0,0,0.12567257,-6526.671,2864.0316)"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
     <image
        sodipodi:absref="/home/isac/Pictures/Screenshot from 2021-02-10 14-28-54.png"
        y="1289.285"
@@ -2750,6 +2886,56 @@
        x="-4996.4302"
        y="1240.3083"
        sodipodi:absref="/home/isac/Pictures/Screenshot from 2021-02-11 16-24-54.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <image
+       sodipodi:absref="/home/isac/Pictures/Screenshot from 2021-02-15 23-08-14.png"
+       y="2884.625"
+       x="-6800.5474"
+       id="image1173"
+       xlink:href="file:///home/isac/Pictures/Screenshot%20from%202021-02-15%2023-08-14.png"
+       preserveAspectRatio="none"
+       height="285.75"
+       width="508"
+       clip-path="url(#clipPath1213)"
+       transform="matrix(0.98915826,0,0,0.98915826,-509.75197,34.367463)" />
+    <image
+       sodipodi:absref="/home/isac/Pictures/Screenshot from 2021-02-15 23-07-43.png"
+       y="2881.6011"
+       x="-7375.0713"
+       id="image1184"
+       xlink:href="file:///home/isac/Pictures/Screenshot%20from%202021-02-15%2023-07-43.png"
+       preserveAspectRatio="none"
+       height="285.75"
+       width="508"
+       clip-path="url(#clipPath1209)"
+       transform="matrix(0.98915826,0,0,0.98915826,-291.47593,37.54552)"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <image
+       sodipodi:absref="/home/isac/Pictures/Screenshot from 2021-02-15 23-07-26.png"
+       y="2881.6011"
+       x="-7949.5952"
+       id="image1195"
+       xlink:href="file:///home/isac/Pictures/Screenshot%20from%202021-02-15%2023-07-26.png"
+       preserveAspectRatio="none"
+       height="285.75"
+       width="508"
+       clip-path="url(#clipPath1205)"
+       transform="matrix(0.98915826,0,0,0.98915826,-86.02555,37.413423)"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <image
+       sodipodi:absref="/home/isac/Pictures/Screenshot from 2021-02-15 23-07-26.png"
+       y="2881.6011"
+       x="-7949.5952"
+       id="image1195-7"
+       xlink:href="file:///home/isac/Pictures/Screenshot%20from%202021-02-15%2023-07-26.png"
+       preserveAspectRatio="none"
+       height="285.75"
+       width="508"
+       clip-path="url(#clipPath1297)"
+       transform="matrix(0.13355208,0,0,0.13355208,-6714.4109,2831.1707)"
        inkscape:export-xdpi="180"
        inkscape:export-ydpi="180" />
   </g>

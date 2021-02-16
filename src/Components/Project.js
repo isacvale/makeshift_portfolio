@@ -1,7 +1,32 @@
 import React from 'react'
 import Thumbnails from 'Components/Thumbnails'
+import ItemList from 'Components/ItemList'
 import { makeId } from 'Utils'
 import './Project.css'
+
+const ProjectLinks = props => {
+    const { website } = props
+    const links = Array.isArray(website)
+        ? website
+        : [website]
+
+    return (
+        <div className='ProjectLinks'>
+            { website
+                ? links.map(link =>
+                    <a
+                        className='interactive'
+                        href={link.link}
+                        key={link.link}
+                    >
+                        {link.label}
+                    </a>
+                )
+                : null
+            }
+        </div>
+    )
+}
 
 const Project = props => {
     const {
@@ -10,7 +35,11 @@ const Project = props => {
         setActiveProject,
         toggleLightbox
     } = props
-    const { alias } = data
+    const {
+        alias,
+        items,
+        website
+    } = data
 
     const openLightbox = num => {
         setActiveProject(data.alias)
@@ -25,10 +54,12 @@ const Project = props => {
                 <p>
                     {data.description}
                 </p>
+                <ProjectLinks website={website}/>
                 <Thumbnails
                     alias={alias}
                     onClick={openLightbox}
                 />
+                <ItemList items={items} />
             </div>
         </section>
     )
