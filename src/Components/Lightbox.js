@@ -14,6 +14,8 @@ const LightBoxImage = props => {
         setImageNum
     } = props
 
+    const project = projects.find(project => project.alias === activeProject)
+
     const imageEl = useRef()
 
     const setNewImage = mod => {
@@ -43,14 +45,19 @@ const LightBoxImage = props => {
         trackMouse: true
     })
 
+    // const project = projects.find(project => project.alias === activeProject)
+    const imgSource = project.svgImages
+        ? `${process.env.PUBLIC_URL}/images/${activeProject}_0${imageNum}.svg`
+        : `${process.env.PUBLIC_URL}/images/${activeProject}_0${imageNum}-min.png`
+
     return (
         <div
-            className={`Lightbox_Anim`}
+            className={`Lightbox_Anim ${project.svgImages ? '_svg' : ''}`}
             ref={imageEl}
         >
             <img                
                 className={`Lightbox_Image`}
-                src={`${process.env.PUBLIC_URL}/images/${activeProject}_0${imageNum}-min.png`}
+                src={imgSource}
                 alt={alt}
                 onClick={onClick}
                 {...handlers}

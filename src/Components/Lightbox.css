@@ -85,3 +85,8 @@
 .Lightbox_Anim {
     text-align: center;
 }
+
+.Lightbox_Anim._svg > img {
+    height: 80vmin;
+    filter: drop-shadow(1rem 1rem 0.25rem hsla(0, 0%, 0%, 0.4));
+}

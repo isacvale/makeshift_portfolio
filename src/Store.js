@@ -23,10 +23,10 @@ const projects = [
         name: 'A weather calendar app',
         description: "This app was a challenge from a recruiting company. It was designed and built in five days using React and MobX, and relies on Open Weather APIs for weather forecast.",
         icon: 'sun',
-        website: {
+        website: [{
             label: 'You can see it here.',
             link: 'https://weather-calendar.netlify.app/',
-        },
+        }],
         images: [1, 2, 3, 4, 5, 6]
     },
     {
@@ -35,11 +35,11 @@ const projects = [
         name: 'A game of tic-tac-toe',
         description: `This game implementation was created as a project for freeCodeCamp towards a front end certification. It uses good ol' jQuery and I consider it a sort of an "early work" I grew fond of.`,
         icon: 'cross',
-        website: {
+        website: [{
             label: 'Take a look.',
             link: 'https://codepen.io/isacvale/full/dmwOKg',
-        },
-        images: []
+        }],
+        images: [1, 2, 3, 4]
     },
     {
         alias: 'stamp',
@@ -47,7 +47,17 @@ const projects = [
         name: 'Stamp: a componentization tool',
         description: `This is a tool for creating simple components without frameworks. I'm very interested in vanilla/core web technologies, and and I feel componentization is key for modern websites. This tool lets you to look for any <template> in your code and to stamp them where needed, leaving the template markup right there where it makes sense. It doesn't have runtime dependencies.`,
         icon: 'cogs',
-        images: []
+        images: [1, 2, 3, 4, 5],
+        website: [
+            {
+                label: 'You can check out the Github repository.',
+                link: 'https://github.com/isacvale/dvo-stamp'
+            },
+            {
+                label: 'Or you can check out the example page.',
+                link: 'https://github.com/isacvale/stamp_example'
+            }
+        ]
     },
     {
         alias: 'raven',
@@ -55,31 +65,32 @@ const projects = [
         name: 'Raven: a data binding tool',
         description: `This is a tool for creating stores. Named after Odin's ravens, who could see everything, it uses a sub/pub pattern to allow vanilla HTML elements to react to changes to data. Such capability, also called "reactivity", is a fundamental element of modern front end architecture, and this easy tool allows you to have it in vanilla apps.`,
         icon: 'stack',
-        images: []
+        images: [1, 2, 3, 4]
     },
     {
-        alias: 'vectorart',
+        alias: 'vector',
         shortname: 'Vector Art',
         name: 'Some vector art',
         description: "Some vector art I developed for Ocastudios, a game studio. I've been using Linux and free software for years, and used Inkscape to create these images directly on SVG. ",
         icon: 'brush',
-        images: []
+        svgImages: true,
+        images: [1, 2, 3, 4]
     },
     {
-        alias: 'paper',
+        alias: 'tabletop',
         shortname: 'Paper Games',
         name: 'Tabletop paper games',
         description: "During my years in Ocastudios, we've collected traditional games from around the word to create DIY paper versions you could print and play at home. The games were designed to be visually pleasant, save on ink, be foldable and not require glue. I've learned a lot about design doing these projects, so they're worth a mention.",
         icon: 'dice',
-        images: []
+        images: [1, 2, 3, 4, 5, 6]
     },
     {
-        alias: 'oldsite',
+        alias: 'old',
         shortname: 'Me olde Website',
         name: 'Me olde website',
         icon: 'hour-glass',
         description: `This website was created as a capstone for a front end specialization at Coursera. It is outdated in content and technology, and has quite a lot of quirks: for example, it uses a loading screen, but only so I could show off a CSS animation for the capstone. I decided to recreate it, but never found the time, and that's why I know have a "provisional" portfolio. The old website used jQuery and Sass.`,
-        images: []
+        images: [1, 2, 3, 4]
     },
     {
         alias: 'faith',

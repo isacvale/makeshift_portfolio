@@ -8,6 +8,12 @@
 }
 @media (min-width: 500px) {
     .Thumbnails {
+        --thumbnail-size: 2.4rem;
+        gap: 6vw;
+    }
+}
+@media (min-width: 600px) {
+    .Thumbnails {
         --thumbnail-size: 2.8rem;
         gap: var(--thumbnail-size);
     }
@@ -24,4 +30,17 @@
     display: block;
     height: var(--thumbnail-size);
     width: var(--thumbnail-size);
+}
+
+.ProjectThumbnail._svg {
+    align-items: center;
+    display: flex;
+    height: var(--thumbnail-size);
+    justify-content: center;
+    width: var(--thumbnail-size);
+}
+
+.ProjectThumbnail._svg > img {
+    height: calc(2.2 * var(--thumbnail-size));
+    width: auto;
 }
