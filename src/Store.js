@@ -142,7 +142,7 @@ const projects = [
         alias: 'me',
         shortname: 'About Me',
         name: 'About me',
-        description: "I'm Isac, front end developer and web designer based on Vancouver. I graduated in Architecture and worked as a game designer, but my search to combine the stuff I love—design and coding—led me to web design. I mostly work with React and vanilla, but excited with the rospect of exploring new tools. I'm interested in functional programming, test-driven development and user-centric design, but mostly what I want is to create useful and accessible sites that spark joy.",
+        description: "I'm Isac, front end developer and web designer based on Vancouver. I graduated in Architecture and worked as a game designer, but my search to combine the stuff I love—design and coding—led me to web design. I mostly work with React and vanilla, but I'm excited with the orospect of exploring new tools. I'm interested in functional programming, test-driven development and user-centric design, but mostly what I want is to create useful and accessible sites that spark joy.",
         icon: 'neutral',
         images: []
     },
